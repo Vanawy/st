@@ -91,7 +91,7 @@ char *termname = "st-256color";
  *
  *	stty tabs
  */
-unsigned int tabspaces = 8;
+unsigned int tabspaces = 4;
 
 typedef struct {
 	const char* const colors[258]; /* terminal colors */
@@ -164,7 +164,7 @@ static const ColorScheme schemes[] = {
 };
 
 static const char * const * colorname;
-int colorscheme = 0;
+int colorscheme = 5;
 
 /*
  * Default colors (colorname index)
